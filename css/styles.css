@@ -62,14 +62,13 @@ body {
 .list {
   list-style: none;
 }
-
+.item-nav:link{color: var(--primery-text-color);}
 .links {
   text-decoration: none;
 }
-.links:visited, .links:active{
-  color: var(--primery-text-color);
-}
 
+.links:visited{color: var(--primery-text-color)}
+.links:active{color: var(--primery-text-color);}
 
 
 .container {
@@ -77,6 +76,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  
  
 }
 .section {
@@ -127,7 +127,9 @@ body {
   align-items: center;
   margin-left: 93px;
 }
-  
+ .nav-links>.item-nav{
+  text-decoration: none;
+ } 
 .item-nav{
   position: relative;
   font-weight: 500;
